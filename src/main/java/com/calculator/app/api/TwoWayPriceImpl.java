@@ -3,7 +3,7 @@ package com.calculator.app.api;
 import lombok.Value;
 
 @Value
-public class TwoWayPriceImpl implements TwoWayPrice {
+class TwoWayPriceImpl implements TwoWayPrice {
     private final Instrument instrument;
     private final State state;
     private final double bidPrice;
